@@ -1,19 +1,12 @@
 # CRUD
 
-**The app is mobile so you have to download the Expo app from the PlayStore**
+**Baixe o Expo pela Playstore**
 
-* Clone the Repo
-* Run npm install
-* Change the ips of API requests and add yours (Form, ViewData and axios)
-*  Create a database on postegreSQL called crud
-   * create a table called Users
-   * add 3 columns:
-     - id - Serial Auto_Increment, Not Null and Primary_Key
-     - description - varchar(250) and Not Null
-     - name - varchar(80) and Not Null
-* Change database connection data (const db on server.js)
-* Run npm start 
-* Go to server/ directory 
-* Run nodemon server.js in another terminal tab - To start the backend
+* precisa clonar o repositório ou baixar, entrar no diretório do projeto pelo terminal da um npm install,
+* precisará criar um banco de dados no postgreSQL chamado de crud, criar uma tabela chamada Users com description e name nas colunas.
+* Em seguida no arquivo server.js você vai precisar alterar algumas coisas na const db, alterar os dados que estão lá para o do banco de dados dele.
+* No arquivo axios.js voccê vai precisar por o ip  no lugar do localhost, a mesma coisa deve se repetir no Form e no Viewdata, substituir localhost pelo ip
+* Para iniciar o mobile pode dar um npm start em um terminal e em um outro terminal tem que ir no diretório server e rodar "nodemon server.js" para ligar o backend
+* Depois é so executar o Expo que você baixou pela Playstore.
 
-**On Expo app, Press "Scan QR Code" and scan the QR code that is shown on terminal after running npm start**
+* Contribuidores do Projeto: Franciso Ferraz, e Isaac Alves.
